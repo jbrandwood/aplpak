@@ -254,7 +254,7 @@ int main(int argc, char* argv[])
 
   /* Show the help information if called incorrectly (too many or too few arguments). */
 
-  if (bShowHelp || (argc < (iArg+2)) || (argc > (iArg+2)))
+  if (bShowHelp || (argc < (iArg+2)))
   {
     printf("\n%s by J.C.Brandwood\n\n", VERSION_STR);
 
