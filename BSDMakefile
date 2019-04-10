@@ -1,0 +1,4 @@
+# Nasty hack to run gmake if using bmake on a BSD system.
+
+all clean:
+	gmake $@
